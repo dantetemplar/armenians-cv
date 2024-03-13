@@ -27,7 +27,7 @@ GitHub поддерживает генерацию
    ```
 4. Настройте [pre-commit](https://pre-commit.com/) хуки:
    ```bash
-   poetry run pre-commit install --install-hooks -t pre-commit -t commit-msg
+   pre-commit install --install-hooks -t pre-commit -t commit-msg
    ```
 
 **Интеграции в PyCharm**
