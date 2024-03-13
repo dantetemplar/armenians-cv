@@ -19,7 +19,7 @@ GitHub поддерживает генерацию
 1. Установите [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html)  и [Conda-Lock](https://github.com/conda/conda-lock)
 2. Установите зависимости проекта из lock файла
    ```bash
-    mamba create -n armenians_cv --file conda-linux-64.lock
+   mamba create -n armenians_cv --file conda-linux-64.lock
    ```
 3. Активируйте окружение
    ```bash
