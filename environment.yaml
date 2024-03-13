@@ -1,0 +1,20 @@
+name: armenians_cv
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+dependencies:
+  - python>=3.10
+  - pip  # pip must be mentioned explicitly, or conda-lock will fail
+  - pytorch
+  - pytorch-cuda=12.1
+  - torchvision
+  - albumentations
+  - matplotlib
+  - seaborn
+  - ruff
+  - pre-commit
+  - jupyter
+platforms:
+  - linux-64
+  - win-64

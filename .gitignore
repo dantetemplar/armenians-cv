@@ -1,0 +1,17 @@
+### PyCharm ###
+.idea
+
+### VSCode ###
+.vscode
+
+### macOS ###
+.DS_Store
+
+### Cache ###
+__pycache__
+.ruff_cache
+
+### Environment ###
+.env
+settings.yaml
+venv
