@@ -1,0 +1,8 @@
+[tool.ruff]
+line-length = 120
+lint.ignore = [
+    # wildcard imports are fine
+    "F403",
+    "F405",
+]
+extend-include = ["*.ipynb"]

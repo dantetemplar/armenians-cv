@@ -36,4 +36,3 @@ repos:
         exclude: alembic/
       - id: end-of-file-fixer
         exclude: alembic/
-      - id: check-added-large-files
